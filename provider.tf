@@ -2,8 +2,7 @@ terraform {
     cloud {
       organization = "kartheek91"
       workspaces {
-        name = "value"
-        project = "skipper"
+        name = "skippertest"
       }
     }
   required_providers {
