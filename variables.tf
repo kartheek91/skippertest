@@ -19,9 +19,6 @@ variable "client_secret" {
 variable "subscription_id" {
   type = string
 }
-variable "resource_name" {
-  type = string
-}
 variable "owner" {
   type = string
 }
