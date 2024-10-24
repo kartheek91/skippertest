@@ -1,10 +1,7 @@
 variable "resoure_group_name" {
   type = string
 }
-variable "tags" {
-  type = list(string)
-}
-  variable "location" {
+variable "location" {
   type = string
 }
 variable "client_id" {
